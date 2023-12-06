@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo&family=Poppins:wght@500&family=Sedgwick+Ave+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="clima.css">
+    <title>Clima</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="pesquisa">
+            <input type="text" placeholder="Procure pelo nome da cidade" spellcheck="false">
+            <button> <img src="img/search.png"></button>
+            
+        </div>
+        <div class="error">
+            <p> Nome de cidade inválido</p>
+        </div>
+        <div class="clima">
+            <img src="img/rain.png" class="clima-icon">
+            <h1 class="temp"></h1>
+            <h2 class="cidade"></h2>
+            <div class="detalhes">
+                <div class="col">
+                    <img src="img/humidity.png">
+                    <div>
+                        <p class="humidade"></p>
+                        <p>Humidade</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/wind.png">
+                        <div>
+                            <p class="vento"></p>
+                            <p>Vento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <script src="clima.js"></script>
+</body>
+
+</html>
